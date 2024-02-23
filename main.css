@@ -22,7 +22,7 @@ html {
     overflow-x: hidden;
 }
 
-h1 bold, h3 bold {
+h1 bold, h2 bold, h3 bold {
     color: RGB(127, 255, 212);
     font-size: 2em
 }
@@ -37,8 +37,14 @@ h1 bold, h3 bold {
     display: flex;
 }
 
-header, footer{
+header{
     background-color: RGB(255, 255, 240);
+    color: black;
+    padding-top: 16px;
+}
+
+footer{
+    background-color: RGB(183, 225, 206);
     color: black;
     padding-top: 16px;
 }
@@ -88,3 +94,136 @@ nav li a {
     margin-bottom: 4px;
 }
 
+.sobre {
+    display: flex;
+    background-color:RGB(240, 234, 214);
+    height: 100%;
+}
+
+.Saiba-Mais {
+    display: flex;
+    background-color:white;
+    height: 100%;
+}
+
+.sobre > .missao, .familia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.historia, .joia{
+    width: 100%;
+}
+
+.Saiba-Mais h2 {
+    text-align:left;
+    margin-left: 270px;
+}
+
+.sobre h2 {
+    text-align:left;
+    margin-left: 270px;
+}
+
+
+.joia img {
+    display: block;
+    max-width: 20%;
+    height: auto; 
+    margin: 200px 300px;
+    border-radius: 50px;
+}
+
+.sobre p, .Saiba-Mais p {
+    margin: 10em 15em;
+    font-weight: bold;
+    text-align: justify;
+    font-size: large;
+}
+
+.historia img {
+    display: block;
+    max-width: 50%;
+    height: auto; 
+    margin: 100px 260px;
+    border-radius: 20px;
+    border:8px solid rgba(183, 225, 206,0.6);
+}
+
+section {
+    padding: 48px 0;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+footer li img {
+    height: 32px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#Contato {
+    background-color: RGB(240, 234, 214);
+    display: flex;
+}
+
+.container {
+    display: flex;
+    
+}
+
+#Contato .container {
+    display: flex;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: RGB(183, 225, 206);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#iframe {
+    height: 400px; 
+    width:100%;
+}

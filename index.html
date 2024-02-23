@@ -15,7 +15,7 @@
 <body>
 <header>
     <div class="container">
-        <h1><bold></bold>Landing Page<bold>.</bold></h1>
+        <h1>Harry's Gems<bold>.</bold></h1>
             <div class="menu-hamburguer">
                 <h3>Explore<bold>.</bold></h3>
             </div>
@@ -24,29 +24,95 @@
         <div class="container">
             <ul>
                 <li class="linha">
-                    <a href="#">Sobre</a>
+                    <a href="#Sobre">About</a>
                 </li>
                 <li>
-                    <a href="#">Saiba Mais</a>
+                    <a href="#SaibaMais">Learn more</a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#Contato">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 </header>
-<section class="sobre">
+<section class="sobre" id="Sobre">
     <div class="Missao">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cum illo temporibus beatae porro itaque quas, autem suscipit quo repellendus harum mollitia ipsam aliquam minus quam ullam quod asperiores laudantium.</p>
+        <h2>Jewelry<bold>.</bold></h2>
+        <p>Cada joia é uma obra-prima refinada, meticulosamente trabalhada à mão para garantir sua qualidade excepcional. Desde o primeiro esboço até o último toque final, dedicamos cuidadosamente nossa atenção a cada detalhe. Nossa busca pela perfeição resulta em peças que transcendem o comum, elevando o luxo e a elegância a novos patamares</p>
     </div>
-    <div class="historia">
-        <img src="#" alt="imagem da nossa familia de onde viemos">
+    <div class="joia" id="carrosel-imagens">
+        <img src="./jade.png" alt="imagem de uma joia de jade">
     </div>
 </section>
-<section class="Saiba Mais"></section>
-<section class="Contato"></section>
-
+<section class="Saiba-Mais" id="SaibaMais">
+    <div class="historia">
+        <h2>Our Storie<bold>.</bold></h2>
+        <img src="./maojoia.jpg" alt="imagem da nossa familia de onde viemos">
+    </div>
+    <div class="familia">
+        <p>Uma família de ourives em uma cidade pequena começou a criar joias únicas. Com habilidade e paixão, construíram uma marca reconhecida mundialmente. Cada peça conta uma história de amor, tradição e elegância. Hoje, sua marca é sinônimo de sofisticação e é desejada por todos que buscam exclusividade</p>
+    </div>
+</section>
+<section id="Contato">
+    <div class="container">
+        <h2>Contact Us<bold>.</bold></h2>
+        <form id="form">
+            <div class="form-campo">
+                <label for="nome">Name:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="form-campo">
+                <label for="telefone">Telephone:</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+            <div class="form-campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-campo">
+                <label for="text">ID:</label>
+                <input type="text" id="CPF" name="CPF">
+            </div>
+            <div class="form-campo">
+                <label for="text">Adress:</label>
+                <input type="text" id="Adress" name="Adress">
+            </div>
+            <div class="form-campo">
+                <label for="text">ZIP-Code:</label>
+                <input type="number" id="ZIP" name="ZIP">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="iframe" id="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146280.73275850812!2d7.0962253263291135!3d47.05798424410812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39c0d43a1b77%3A0xcb555ffe0457659a!2zQmVybmEsIFN1w63Dp2E!5e0!3m2!1spt-BR!2sbr!4v1708714726640!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container container-flex">
+        <p>
+            2024 &copy; Harry's Gems - All rights reserved
+        </p>
+        <ul class="container-flex">
+            <li>
+                <a href="#">
+                    <img src="/facebook.png" alt="Icone Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/instagram.png" alt="Icone Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/youtube.png" alt="Icone Youtube">
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
