@@ -1,0 +1,90 @@
+/*Ouro Rosa: RGB(255, 192, 203)
+Marfim: RGB(255, 255, 240)
+Aquamarine: RGB(127, 255, 212)
+Coral: RGB(255, 127, 80)
+Pérola: RGB(240, 234, 214)*/
+
+
+/*Rosa Claro: RGB(255, 204, 204)
+Cinza Pérola: RGB(221, 221, 221)
+Verde Água: RGB(183, 225, 206)
+Bege Suave: RGB(240, 234, 214)
+Lavanda: RGB(230, 230, 250)*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Cinzel", serif;;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+h1 bold, h3 bold {
+    color: RGB(127, 255, 212);
+    font-size: 2em
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+}
+
+.container-flex {
+    display: flex;
+}
+
+header, footer{
+    background-color: RGB(255, 255, 240);
+    color: black;
+    padding-top: 16px;
+}
+
+header>.container,
+footer>.container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: RGB(183, 225, 206);
+    padding:16px 0;
+    /*display: none;*/
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 16px;
+}
+
+nav li a {
+    color: RGB(255, 255, 240);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.linha{
+    margin-left: 350px;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    margin-bottom: 4px;
+}
+
