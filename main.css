@@ -59,7 +59,7 @@ footer>.container {
 nav {
     background-color: RGB(183, 225, 206);
     padding:16px 0;
-    /*display: none;*/
+    display: none;
 }
 
 nav li {
@@ -100,6 +100,7 @@ nav li a {
     height: 100%;
 }
 
+
 .Saiba-Mais {
     display: flex;
     background-color:white;
@@ -113,6 +114,8 @@ nav li a {
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
+
+
 
 .historia, .joia{
     width: 100%;
@@ -131,10 +134,8 @@ nav li a {
 
 .joia img {
     display: block;
-    max-width: 20%;
     height: auto; 
     margin: 200px 300px;
-    border-radius: 50px;
 }
 
 .sobre p, .Saiba-Mais p {
@@ -198,16 +199,12 @@ footer li img {
 
 #Contato {
     background-color: RGB(240, 234, 214);
-    display: flex;
 }
 
 .container {
     display: flex;
-    
-}
-
-#Contato .container {
-    display: flex;
+    justify-content: space-between;    
+    align-items: center;
 }
 
 button {
@@ -223,7 +220,22 @@ button {
     border-radius: 6px;
 }
 
-#iframe {
-    height: 400px; 
-    width:100%;
+.contato-wrapper {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato-form {
+    width: 100%;
+}
+
+.iframe-wrapper {
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+.iframe {
+    overflow: hidden;
 }
