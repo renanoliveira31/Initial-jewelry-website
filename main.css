@@ -100,14 +100,13 @@ nav li a {
     height: 100%;
 }
 
-
 .Saiba-Mais {
     display: flex;
     background-color:white;
     height: 100%;
 }
 
-.sobre > .missao, .familia {
+.sobre > .missao{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +114,12 @@ nav li a {
     overflow-wrap: break-word;
 }
 
-
+.familia p{
+    display: flex;
+    width: 50%;
+    text-indent: 20px;
+    height: 0%;
+}
 
 .historia, .joia{
     width: 100%;
@@ -176,6 +180,11 @@ section h2 {
     padding: 8px;
 }
 
+#ZIP::-webkit-inner-spin-button,
+#ZIP::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
 
 form {
     max-width: 360px;
