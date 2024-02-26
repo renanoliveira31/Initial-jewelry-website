@@ -7,7 +7,7 @@ $(document).ready(function(){
         arrows: false
     });
     $('#carrosel-imagens').css({
-        'width': '35%',
+        'width': '45%',
         'margin-right': '5%'
     });
     $('#carrosel-imagens img').css({
